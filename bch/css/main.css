@@ -1,0 +1,33 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+/*Header*/
+.navbar-container
+{
+    margin: 0 auto;
+    max-width: 1615px;
+    width: 100%;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #282C2E;
+} 
+
+.navbar-nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
